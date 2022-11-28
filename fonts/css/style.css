@@ -1,0 +1,98 @@
+        /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+        
+        body {
+            background: black;
+        }
+        
+        img {
+            padding: 30px;
+            /* margin: 0x; */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        
+        .container {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding: 30px;
+        }
+        
+        .search-bar {
+            width: 100%;
+            max-width: 700px;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            border-radius: 60px;
+            padding: 10px 20px;
+            backdrop-filter: blur(4px) saturate(180%);
+        }
+        
+        .search-bar input {
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 25px 20px;
+            font-size: 20px;
+            color: white;
+        }
+        
+         ::placeholder {
+            color: white;
+        }
+        
+        .search-bar button img {
+            width: 30px;
+            color: aliceblue;
+        }
+        
+        .search-bar button {
+            border: 0;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            background: transparent;
+            cursor: pointer;
+        }
+        
+        .button {
+            text-align: center;
+        }
+        
+        .button input {
+            border-radius: 10px;
+            background: gray;
+            padding: 10px;
+        }
+        
+        h6 {
+            font-size: 30px;
+            color: white;
+            text-align: left;
+            margin-top: 400px;
+        }
+        
+        h5 {
+            font-size: 20px;
+            text-align: center;
+            color: gray;
+        }
+        
+        h5 a {
+            font-size: 20px;
+            margin-top: 100%;
+            padding: 10px;
+        }
+        
+        h5 a {
+            text-decoration: none;
+        }
